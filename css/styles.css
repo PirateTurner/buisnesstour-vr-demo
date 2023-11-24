@@ -89,6 +89,27 @@ h1 {
     margin-left: 20px;
 }
 
+.box {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position:relative;
+    margin: 0px 20px 0px -19px;
+    
+}
+.box1 {
+    margin: -18px 20px 0px 0px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position:relative;
+    
+    
+}
+
+
 h3 {
     display: flex;
     flex-direction: column;
@@ -116,6 +137,8 @@ ol {
 ul {
     list-style-type: none;
 }
+
+
 
 footer {
     text-align: center;
